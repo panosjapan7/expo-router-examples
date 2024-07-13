@@ -12,8 +12,8 @@
     <br />
     <br />
 - 1 Level Deep (Drawer):
-  - 1 Drawer Navigator (app/(drawer)/\_layout.tsx)
-  - 1 screen (app/(drawer)/settings)
+  - 1 Drawer Navigator (`app/(drawer)/\_layout.tsx`)
+  - 1 screen (`app/(drawer)/settings`) - Doesn't render the Tabs
     <br />
     <br />
     <img src="./assets/screenshots/level-1-drawer.jpg" width="50%" height="100%" />
