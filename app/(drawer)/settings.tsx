@@ -1,5 +1,4 @@
 // ./app/(drawer)/(tabs)/protected.tsx
-import { Tabs } from "expo-router";
 import { Text, View } from "react-native";
 
 const Settings = () => {

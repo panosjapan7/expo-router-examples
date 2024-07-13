@@ -2,7 +2,6 @@
 import { Drawer } from "expo-router/drawer";
 import { router, usePathname } from "expo-router";
 import { DrawerContentScrollView, DrawerItem } from "@react-navigation/drawer";
-import { useEffect } from "react";
 
 const CustomDrawerComponent = (props: any) => {
   const pathname = usePathname();
