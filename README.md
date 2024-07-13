@@ -1,4 +1,5 @@
-![](assets/screenshots/expo-router-examples.gif)
+<!-- ![](assets/screenshots/expo-router-examples.gif) -->
+<img src="./assets/screenshots/expo-router-examples.gif" width="300" height="30%" />
 
 # This app creates the following navigation:
 
