@@ -1,4 +1,4 @@
-// ./app/(drawer)/(tabs)/protected.tsx
+// ./app/(drawer)/(tabs)/settings.tsx
 import { Text, View } from "react-native";
 
 const Settings = () => {
