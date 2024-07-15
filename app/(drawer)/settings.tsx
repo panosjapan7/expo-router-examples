@@ -1,4 +1,4 @@
-// ./app/(drawer)/(tabs)/settings.tsx
+// ./app/(drawer)/settings.tsx
 import { Text, View } from "react-native";
 
 const Settings = () => {
