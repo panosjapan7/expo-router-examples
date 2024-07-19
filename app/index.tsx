@@ -4,7 +4,14 @@ import { Link } from "expo-router";
 
 const Home = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#ffffff",
+      }}
+    >
       <Text style={{ color: "red", fontWeight: "bold" }}>Home screen</Text>
       <Link href="/register">
         <Text>Go to Register</Text>

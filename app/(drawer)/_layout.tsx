@@ -38,6 +38,7 @@ const DrawerLayout = () => {
       drawerContent={(props) => <CustomDrawerComponent {...props} />}
       screenOptions={{
         headerShown: false,
+        headerShadowVisible: false,
       }}
     >
       <Drawer.Screen

@@ -7,7 +7,7 @@ const TabsLayout = () => {
     <Tabs
       screenOptions={{
         headerLeft: () => <DrawerToggleButton />,
-        // headerShown: false
+        headerShadowVisible: false,
       }}
     >
       <Tabs.Screen
