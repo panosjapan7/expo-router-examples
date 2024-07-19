@@ -6,11 +6,14 @@
 - Root Level (Stack):
   - 1 Stack Navigator (`app/_layout`) with 4 Screens (`app/index`, `app/login`, `app/register`, `app/reset-password`)
   - 1 Screen opens as a Modal (`reset-password`)
-    <br />
-    <br />
-    <img src="./assets/screenshots/root-level.jpg" width="auto" height="30%" />
-    <br />
-    <br />
+  - When modal is open:
+    - The status bar contents on iOS is in white color
+    - The status bar contents on Android is in black color
+      <br />
+      <br />
+      <img src="./assets/screenshots/root-level.jpg" width="auto" height="30%" />
+      <br />
+      <br />
 - 1 Level Deep (Drawer):
   - 1 Drawer Navigator (`app/(drawer)/_layout.tsx`)
   - 1 screen (`app/(drawer)/settings`)
