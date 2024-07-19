@@ -1,12 +1,8 @@
 // ./app/_layout.tsx
-import { Stack, usePathname } from "expo-router";
-import { StatusBar, Platform, useColorScheme, View } from "react-native";
+import { Stack } from "expo-router";
+import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { StatusBar as StatusBarApple } from "expo-status-bar";
 const Layout = () => {
-  const pathname = usePathname();
-  const deviceTheme = useColorScheme();
-  console.log("pathname: ", pathname);
   return (
     <>
       <SafeAreaView

@@ -8,7 +8,6 @@ const ResetPassword = () => {
       <StatusBar
         barStyle={Platform.OS === "android" ? "dark-content" : "light-content"}
       />
-
       <View
         style={{
           flex: 1,
