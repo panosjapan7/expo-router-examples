@@ -6,23 +6,9 @@ import { StatusBar as StatusBarApple } from "expo-status-bar";
 const Layout = () => {
   const pathname = usePathname();
   const deviceTheme = useColorScheme();
-
+  console.log("pathname: ", pathname);
   return (
     <>
-      {Platform.OS === "android" ? (
-        <StatusBar barStyle={"dark-content"} />
-      ) : null}
-      {Platform.OS === "ios" ? (
-        <StatusBarApple
-          style={
-            deviceTheme === "light" && pathname === "/reset-password"
-              ? "light"
-              : deviceTheme === "light"
-              ? "dark"
-              : "light"
-          }
-        />
-      ) : null}
       <SafeAreaView
         edges={["right", "left"]}
         style={{ flex: 1, backgroundColor: "transparent" }}
